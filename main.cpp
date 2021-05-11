@@ -9,7 +9,7 @@ int main()
 	int sum = 0;
 	for (int i = 0; i < login.length(); ++i)
 	{
-		if (login[i] < 'A' || login[i] > 'z')
+		if (login[i] < 'A')
 		{
 			std::cout << "incorrect login";
 			return 0;
